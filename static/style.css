@@ -1,0 +1,86 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  background-color: #00203f; 
+  min-height: 100vh;
+  transition: background-color 0.5s ease; /* Efek transisi warna selama 0.5 detik */
+}
+
+body:hover {
+  background-color: #795825; /* Warna latar belakang saat dihover */
+}
+@keyframes rotateAnimation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* Terapkan animasi ke elemen */
+.element {
+  animation: rotateAnimation 4s linear infinite; /* Animasi rotasi selama 4 detik, secara linear dan berulang */
+}
+
+
+.section {
+  padding: 1rem 1.5rem;
+  max-width: 750px;
+  margin: auto;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.is-sparta {
+  color: #e8344e important;
+}
+
+.button.is-sparta {
+  background-color: #e8344e;
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.button.is-sparta.is-outlined {
+  background-color: transparent;
+  border-color: #e8344e;
+  color: #e8344e !important;
+}
+
+.help {
+  color: gray;
+}
+
+.modal-content {
+    width: 600px;
+    height: 80%;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.logo-text {
+    font-family: 'Stylish', sans-serif;
+    font-size: larger;
+}
