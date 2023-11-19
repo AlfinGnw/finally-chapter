@@ -89,7 +89,7 @@ function get_posts(username) {
                                 <article class="media">
                                     <div class="media-left">
                                         <a class="image is-64x64" href="/user/${post["nickname"]}">
-                                            <img class="is-rounded" src="/static/profile_pics/${post["profile_pic_real"]}"alt="Image">
+                                            <img class="is-rounded" src="/static/${post["profile_pic_real"]}"alt="Image">
                                         </a>
                                     </div>
                                     <div class="media-content">
